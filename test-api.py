@@ -2,8 +2,7 @@ import urllib2
 import json
 
 """
-url="https://api.locu.com/v1_0/venue/search/?has_menu=false&locality=Buenos%20Aires&street_address=Rivadavia&api_key=12df9787a95a8a4173300b5fbd6e2900cdd88349"
-
+url="https://api.locu.com/v1_0/venue/search/?has_menu=false&locality=Buenos%20Aires&street_address=Rivadavia&api_key=
 json_obj = urllib2.urlopen(url)
 data = json.load(json_obj)
 
